@@ -1,6 +1,10 @@
 import { Welcome } from "./Welcome";
 import Button from "./Button";
 import { Hello, HelloWithoutJSX } from "./Hello";
+import { UserProfile } from "./UserProfile";
+import { ContactForm } from "./ContactForm";
+import { StyledForm } from "./StyledForm";
+import { CandidateProfile } from "./CandidateProfile";
 import "./App.css";
 
 function App() {
@@ -11,6 +15,10 @@ function App() {
       <Button />
       <Hello />
       <HelloWithoutJSX />
+      <UserProfile />
+      <ContactForm />
+      <StyledForm />
+      <CandidateProfile />
     </div>
   );
 }
