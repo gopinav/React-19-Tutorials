@@ -6,6 +6,8 @@ import { ContactForm } from "./ContactForm";
 import { StyledForm } from "./StyledForm";
 import { CandidateProfile } from "./CandidateProfile";
 import { Product } from "./Product";
+import { Greeting } from "./Greeting";
+import { CardWrapper } from "./CardWrapper";
 import "./App.css";
 
 function App() {
@@ -28,6 +30,15 @@ function App() {
         inStock={true}
         categories={["Electronics", "Computers", "Gaming"]}
       />
+      <Greeting name="Bruce" message="Good morning" />
+      <Greeting name="Clark" />
+      <Greeting message="Welcome" />
+      <Greeting />
+      <CardWrapper title="User Profile">
+        <p>John Doe</p>
+        <p>john@example.com</p>
+        <button>Edit Profile</button>
+      </CardWrapper>
     </div>
   );
 }
