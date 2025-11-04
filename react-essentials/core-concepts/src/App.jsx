@@ -13,6 +13,9 @@ import { ProductList } from "./ProductList";
 import { Alert } from "./Alert";
 import { NewButton } from "./NewButton";
 import { CustomButton } from "./CustomButton";
+import { Contact } from "./Contact";
+import { Newsletter } from "./Newsletter";
+import { Menu } from "./Menu";
 import "./App.css";
 
 function App() {
@@ -62,6 +65,9 @@ function App() {
       <Alert type="error">Something went wrong!</Alert>
       <NewButton />
       <CustomButton />
+      <Contact />
+      <Newsletter />
+      <Menu />
     </div>
   );
 }
