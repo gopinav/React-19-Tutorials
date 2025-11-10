@@ -16,6 +16,7 @@ import { CustomButton } from "./CustomButton";
 import { Contact } from "./Contact";
 import { Newsletter } from "./Newsletter";
 import { Menu } from "./Menu";
+import { TodoList } from "./ToDoList";
 import "./App.css";
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
       <Contact />
       <Newsletter />
       <Menu />
+      <TodoList />
     </div>
   );
 }
