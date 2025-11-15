@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export const SimpleCounter = () => {
   const [count, setCount] = useState(0);
-  console.log("Render phase: Component running with count =", count);
+  console.log("Render phase: Component rendering with count =", count);
 
   const handleClick = () => {
     setCount(count + 1);
