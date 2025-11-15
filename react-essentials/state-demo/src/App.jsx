@@ -6,10 +6,12 @@ import { SimpleCounter } from "./SimpleCounter";
 import { PrevStateCounter } from "./PrevStateCounter";
 import { BatchingCounter } from "./BatchingCounter";
 import { UserProfile } from "./UserProfile";
+import { TodoList } from "./TodoList";
 
 function App() {
   return (
     <>
+      <TodoList />
       <UserProfile />
       <BatchingCounter />
       <PrevStateCounter />
