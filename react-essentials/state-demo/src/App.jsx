@@ -5,16 +5,18 @@ import { UserDashboard } from "./UserDashboard";
 import { SimpleCounter } from "./SimpleCounter";
 import { PrevStateCounter } from "./PrevStateCounter";
 import { BatchingCounter } from "./BatchingCounter";
+import { UserProfile } from "./UserProfile";
 
 function App() {
   return (
     <>
+      <UserProfile />
       <BatchingCounter />
-      {/* <PrevStateCounter />
+      <PrevStateCounter />
       <SimpleCounter />
       <Counter />
       <LoginCard />
-      <UserDashboard isPremium={true} /> */}
+      <UserDashboard isPremium={true} />
     </>
   );
 }
