@@ -7,6 +7,7 @@ import { PrevStateCounter } from "./PrevStateCounter";
 import { BatchingCounter } from "./BatchingCounter";
 import { UserProfile } from "./UserProfile";
 import { TodoList } from "./TodoList";
+import { CounterWithReducer } from "./CounterWithReducer";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Counter />
       <LoginCard />
       <UserDashboard isPremium={true} />
+
+      <CounterWithReducer />
     </>
   );
 }
