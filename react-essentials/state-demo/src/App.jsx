@@ -8,6 +8,7 @@ import { BatchingCounter } from "./BatchingCounter";
 import { UserProfile } from "./UserProfile";
 import { TodoList } from "./TodoList";
 import { CounterWithReducer } from "./CounterWithReducer";
+import { ShoppingCartWithReducer } from "./ShoppingCartWithReducer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <UserDashboard isPremium={true} />
 
       <CounterWithReducer />
+      <ShoppingCartWithReducer />
     </>
   );
 }
