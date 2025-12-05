@@ -9,6 +9,7 @@ import { UserProfile } from "./UserProfile";
 import { TodoList } from "./TodoList";
 import { CounterWithReducer } from "./CounterWithReducer";
 import { ShoppingCartWithReducer } from "./ShoppingCartWithReducer";
+import { CounterWithInit } from "./CounterWithInit";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
 
       <CounterWithReducer />
       <ShoppingCartWithReducer />
+      <CounterWithInit />
     </>
   );
 }
