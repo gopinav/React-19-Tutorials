@@ -1,21 +1,15 @@
 import "./App.css";
 import { Header } from "./Header";
-import { UserContext } from "./UserContext";
+import { UserContextProvider } from "./UserContextProvider";
 
 function App() {
-  const user = {
-    name: "Bruce Wayne",
-    role: "admin",
-    theme: "dark",
-  };
-
   return (
-    <UserContext.Provider value={user}>
+    <UserContextProvider>
       <div>
         <h1>Dashboard</h1>
-        <Header user={user} />
+        <Header />
       </div>
-    </UserContext.Provider>
+    </UserContextProvider>
   );
 }
 
